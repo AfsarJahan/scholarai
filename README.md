@@ -1,19 +1,22 @@
-# 📚 ScholarAI: Predicting Citation Impact from Research Abstracts using NLP + Statistical Modeling
+# 📚 ScholarAI: Predicting Citation Impact from Research Abstracts using NLP & Statistical Modeling
 
-> Can we predict how much a research paper will be cited — just from its title and abstract?  
-> **ScholarAI** uses NLP and machine learning to find out.
+**Can we predict how often a research paper will be cited — using just its title, abstract, and metadata?**
+
+**ScholarAI** is an academic machine learning project that explores this question using NLP, explainable AI, and gradient boosting. Built by a Master’s student in Statistics & Data Analytics, it aims to model what makes scientific work *citable*.
 
 ---
 
 ## 🎯 Project Goal
 
-Predict the **citation count** of a paper using:
+To predict the **future citation count** of a paper using:
+
 - 📝 Title
 - 📄 Abstract
 - 🔍 Metadata (year, authors, journal, venue, etc.)
 
-And explore:  
-**What makes a paper citable?**
+And explore:
+
+> **What makes some papers more cited than others?**
 
 ---
 
@@ -22,13 +25,15 @@ And explore:
 - Python 3.8+
 - Scikit-learn, XGBoost, LightGBM
 - spaCy, BERT (Transformers)
-- SHAP for explainability
-- Streamlit (for interactive demo app)
+- SHAP (for interpretability)
 - Pandas, NumPy, Matplotlib, Seaborn
+- Streamlit (for interactive UI)
 
 ---
 
 ## 📁 Project Structure
+
+
 
 scholarai/
 
@@ -36,11 +41,11 @@ scholarai/
 
 ├── requirements.txt # Dependencies
 
-├── data/ # Raw & cleaned datasets
+├── data/ # Raw and cleaned datasets
 
-├── notebooks/ # Exploratory notebooks
+├── notebooks/ # EDA and experiments
 
-├── src/ # Model training and utils
+├── src/ # Preprocessing and training scripts
 
 │ ├── train_model.py
 
@@ -50,23 +55,33 @@ scholarai/
 
 └── app/ # Streamlit app
 
+---
+
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙️ Setup Instructions
 
 ```bash
 # 1. Clone the repo
 git clone https://github.com/AfsarJahan/scholarai.git
 cd scholarai
 
-# 2. Create a virtual environment (optional but recommended)
+# 2. (Optional) Create a virtual environment
 python -m venv venv
-venv\Scripts\activate   # On Windows
-# source venv/bin/activate   # On macOS/Linux
+venv\Scripts\activate   # on Windows
+source venv/bin/activate   # on macOS/Linux
 
 # 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Run training script
+# 4. Train the model
 python src/train_model.py
+
+# 5. Launch the app
+streamlit run app/app.py
+
+
+
+📈 Demo Coming Soon...
+An interactive web app will let you input a paper's title and abstract — and get a predicted citation count, plus SHAP visualizations for interpretability.
