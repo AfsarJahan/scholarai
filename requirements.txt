@@ -1,0 +1,23 @@
+# Core
+pandas
+numpy
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+xgboost
+lightgbm
+
+# NLP
+spacy
+transformers
+
+# Explainability
+shap
+
+# Web App
+streamlit
+
+# Misc
+tqdm
