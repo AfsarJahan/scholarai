@@ -1,0 +1,14 @@
+# Ignore large raw dataset
+data/dblp.v12.json
+
+# Ignore virtual environments
+venv/
+__pycache__/
+
+# Ignore model checkpoints and logs
+*.pkl
+*.h5
+*.log
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
