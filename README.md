@@ -57,6 +57,15 @@ scholarai/
 
 ---
 
+## 📦 Dataset
+
+This project uses the [DBLP Citation Dataset](https://www.aminer.org/citation) (`dblp.v12.json`, ~11GB), which is too large to host here.
+
+To use it:
+
+1. Download from: https://www.aminer.org/citation
+2. Place it in: `data/dblp.v12.json`
+3. Run: `python src/json_to_csv.py` to extract a manageable CSV
 
 ---
 
