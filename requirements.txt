@@ -11,7 +11,7 @@ lightgbm
 
 # NLP
 spacy
-transformers
+transformers 
 
 # Explainability
 shap
