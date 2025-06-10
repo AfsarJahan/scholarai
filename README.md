@@ -80,10 +80,7 @@ python src/train_model.py
 
 # 5. Launch the app
 streamlit run app/app.py
-
----
-
-
+```
 ---
 ## 📈 Demo Coming Soon
 
@@ -93,7 +90,7 @@ An interactive web app will let you input a paper's title and abstract — and g
 
 **Afsar Jahan**  
 🎓 MSc Statistics & Data Analytics | UG Gold Medalist  
-🔗 [GitHub](https://github.com/AfsarJahan) | [LinkedIn](#)
+🔗 [GitHub](https://github.com/AfsarJahan) | [LinkedIn](www.linkedin.com/in/shaik-afsar-jahan-statistics)
 
 ## ⭐ Show Some Love
 
