@@ -81,7 +81,20 @@ python src/train_model.py
 # 5. Launch the app
 streamlit run app/app.py
 
+---
 
 
-📈 Demo Coming Soon...
+---
+## 📈 Demo Coming Soon
+
 An interactive web app will let you input a paper's title and abstract — and get a predicted citation count, plus SHAP visualizations for interpretability.
+
+## 👩‍💻 Author
+
+**Afsar Jahan**  
+🎓 MSc Statistics & Data Analytics | UG Gold Medalist  
+🔗 [GitHub](https://github.com/AfsarJahan) | [LinkedIn](#)
+
+## ⭐ Show Some Love
+
+If you find this project helpful or interesting, consider giving it a ⭐ on GitHub or sharing it with others!
